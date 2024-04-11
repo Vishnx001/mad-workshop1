@@ -1,7 +1,8 @@
 # MAD_Workshop-01-Develop-an-android-application-to-pass-the-data-between-the-activities-using-Intent.
 
 ## MainActivity.java:
-java
+
+```java
 package com.example.mad_workshop1;
 
 import android.content.Intent;
@@ -47,10 +48,10 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 
-
+```
 ## activity_main.xml:
 
-xml
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -113,10 +114,11 @@ xml
         android:text="Submit" />
 
 </RelativeLayout>
+```
 
 
 ## DisplayActivity.java:
-java
+```java
 package com.example.mad_workshop1;
 
 import android.content.Intent;
@@ -153,7 +155,7 @@ public class DisplayActivity extends AppCompatActivity {
         }
     }
 }
-
+```
 ## activity_display.xml:
 
 xml
@@ -196,10 +198,11 @@ xml
         android:layout_marginTop="20dp"/>
 
 </RelativeLayout>
+```
 
 
 ## AndroidManifest.xml:
-xml
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -232,7 +235,7 @@ xml
     </application>
 
 </manifest>
-
+```
 
 # OUTPUT:
 
